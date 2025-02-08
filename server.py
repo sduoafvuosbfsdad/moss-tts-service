@@ -7,9 +7,7 @@ import uuid
 import torch
 import scipy.io.wavfile as wavf
 import numpy as np
-import struct
 from torch import no_grad, LongTensor
-from torchsummary import summary
 from fastapi import FastAPI, Request
 from fastapi.responses import StreamingResponse, JSONResponse, Response
 from fastapi.exceptions import HTTPException
